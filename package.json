@@ -1,13 +1,27 @@
 {
   "name": "read-last-line",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is to read file from last lines",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shankar Mattigatti",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shankarmattigatti/read-last-line.git"
+  },
+  "author": "Shankar Mattigatti (https://github.com/shankarmattigatti)",
+  "keywords": [
+    "read",
+    "lines",
+    "last",
+    "file"
+  ],
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shankarmattigatti/read-last-line/issues"
+  },
+  "homepage": "https://github.com/shankarmattigatti/read-last-line",
   "dependencies": {
     "fs-promise": "^2.0.3"
   }
