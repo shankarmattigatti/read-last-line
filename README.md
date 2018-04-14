@@ -15,8 +15,8 @@ example reading last 20 lines of a file
 const readLastLine = require('read-last-line');
 
 readLastLine.read('file path', 20).then(function (lines) {
-	console.log(lines))
-}).catch( function(err) {
-    console.log(err);
+    console.log(lines)
+}).catch(function (err) {
+    console.log(err.message);
 });
 ```

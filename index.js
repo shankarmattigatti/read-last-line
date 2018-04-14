@@ -1,6 +1,6 @@
 "use strict";
 
-var fsp = require("fs-promise");
+var fsp = require("mz/fs");
 
 module.exports = {
 
